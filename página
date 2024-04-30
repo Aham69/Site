@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/Vito%CC%81ria_2017-06-20%2010-02-57_LeonardoMerc%CC%A7on.jpg?w=1600&h=900');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5); /* Adicionando um fundo escuro semi-transparente ao cabeçalho */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.7); /* Adicionando um fundo escuro semi-transparente à barra de navegação */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Adicionando um fundo branco semi-transparente à seção de conteúdo */
+            border-radius: 5px;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.5); /* Adicionando um fundo escuro semi-transparente ao rodapé */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FICHA PESSOAL</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+    <section>
+        <h2>Bem-vindo ao Meu Site!</h2>
+        <p>Este é um exemplo simples de um site HTML.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
